@@ -1,0 +1,3 @@
+class InsufficientFoundsException extends Exception {
+
+}

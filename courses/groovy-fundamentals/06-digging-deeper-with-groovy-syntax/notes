@@ -1,0 +1,4 @@
+Summary:
+- Extension methods are available on native objects
+- Groovy's truth model for more succinct null checks
+- Category allow you to easily add custom logic to existing classes

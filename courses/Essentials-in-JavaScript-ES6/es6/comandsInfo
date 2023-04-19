@@ -1,0 +1,23 @@
+Create PACKAGE.JSON file:
+> npm init -y
+
+Install webpack and webpack-cli as a dev dependencies
+> npm install --save-dev webpack webpack-cli
+
+Run script build from PACKAGE.JSON
+> npm run build
+
+
+
+Install Babel and stuff
+> npm install babel-core babel-loader webpack-dev-server label-preset-env babel-polyfill --save-dev
+  - babel-core         : main babel core
+  - babel-loader       : 
+  - webpack-dev-server : automatic live code updates
+  - label-preset-env   : convert to
+  - babel-polyfill     : expect native es6
+
+
+
+
+

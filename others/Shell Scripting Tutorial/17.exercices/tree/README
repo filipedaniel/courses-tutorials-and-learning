@@ -1,0 +1,35 @@
+This is an example of two methods for doing a depth-first traversal
+of a directory tree.
+
+traverse.sh uses subshells to traverse each subdirectory.
+traverse2.sh uses a single shell, which is probably more efficient.
+tree.tar.gz contains a simple directory tree for testing with:
+a
+a/ac
+a/A
+a/ad
+a/ad/Another File
+a/aa
+a/aa/AA
+a/File With Spaces
+a/ab
+a/ab/AB
+b
+b/ba
+b/bb
+b/B
+b/bc
+b/bd
+c
+c/cb
+c/C
+c/ca
+c/cc
+c/cd
+d
+d/D
+d/da
+d/db
+d/db/This is a file
+d/dc
+d/dd

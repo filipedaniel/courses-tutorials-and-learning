@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29709.97
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DictSnippets", "DictSnippets\DictSnippets.csproj", "{BAD20F4A-4771-4E9B-9B04-DC09E3C08C4E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BAD20F4A-4771-4E9B-9B04-DC09E3C08C4E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BAD20F4A-4771-4E9B-9B04-DC09E3C08C4E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BAD20F4A-4771-4E9B-9B04-DC09E3C08C4E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BAD20F4A-4771-4E9B-9B04-DC09E3C08C4E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {556BA9A1-1D53-4EC5-9A5C-2A42FE0465EF}
+	EndGlobalSection
+EndGlobal

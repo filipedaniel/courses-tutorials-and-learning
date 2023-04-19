@@ -1,0 +1,14 @@
+how you would copy all the files from /tmp/a into /tmp/b. 
+$ cp /temp/a/* /temp/b/
+
+All the .txt files? 
+$ cp /temp/a/*.txt /temp/b/
+
+All the .html files? 
+$ cp /temp/a/*.html /temp/b/
+
+--
+
+Now how would you list the files in /tmp/a/ without using ls /tmp/a/? 
+How about echo /tmp/a/*? What are the two key differences between this and the ls output? How can this be useful? Or a hinderance? 
+> echo show the entire path 

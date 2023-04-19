@@ -1,0 +1,29 @@
+<!-- <div class="row" *ngFor="let session of sessions">
+  <div class="col-md-10">
+    <app-collapsible-well [title]="session.name">
+        <h6>{{session.presenter}}</h6>
+        <span>Duration: {{session.duration}}</span><br />
+        <span>Level: {{session.level}}</span>
+        <p>{{session.abstract}}</p>
+      </app-collapsible-well>
+  </div>
+</div> -->
+
+<div class="row" *ngFor="let session of visibleSessions">
+  <div class="col-md-10">
+    <app-collapsible-well [title]="session.name">
+      <div well-title>
+        <h4>
+          {{session.name}}
+          <span *ngIf="session.voters.length > 3">|X|</span>
+        </h4>
+      </div>
+      <div well-body>
+        <h6>{{session.presenter}}</h6>
+        <span>Duration: {{session.duration}}</span><br />
+        <span>Level: {{session.level}}</span>
+        <p>{{session.abstract}}</p>
+      </div>
+    </app-collapsible-well>
+  </div>
+</div>
